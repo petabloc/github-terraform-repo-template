@@ -32,6 +32,6 @@ If you do not want to use any of these pre-commit hooks you can comment them out
 After every fresh clone of the repo, the developer needs to cd into the directory and run `pre-commit install`. We're trying to figure out how to have that run automatically but haven't yet.
 
 #### Branch Protection:
-NOTE: Branch protection only works for Github team or enterprise installations
+NOTE: Branch protection only works for Github team or enterprise installations, OR Public repos
 
 #### CODEOWNERS
