@@ -21,7 +21,7 @@ To start off with a sane, safe baseline to prevent a disaster later on, ie, havi
 If you do not want to use any of these pre-commit hooks you can comment them out in the `.pre-commit-config.yaml` file in the root of this repo
 
 ### To use this repo:
-Requirements on the developers machine:
+#### Requirements on the developers machine:
 * [pre-commit](https://pre-commit.com/)
 * [trufflehog](https://github.com/trufflesecurity/trufflehog)
 * [tflint](https://github.com/terraform-linters/tflint)
@@ -31,4 +31,7 @@ Requirements on the developers machine:
 
 After every fresh clone of the repo, the developer needs to cd into the directory and run `pre-commit install`. We're trying to figure out how to have that run automatically but haven't yet.
 
-CODEOWNERS
+#### Branch Protection:
+NOTE: Branch protection only works for Github team or enterprise installations
+
+#### CODEOWNERS
