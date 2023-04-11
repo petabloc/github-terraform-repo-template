@@ -6,17 +6,17 @@ To start off with a sane, safe baseline to prevent a disaster later on, ie, havi
 
 ## What does this repo do
 ### pre-commit hooks:
-    * trufflehog (secret scanning)
-    * terragrunt hclfmt
-    * trailing-whitespace
-    * end-of-file-fixer
-    * detect-aws-credentials
-    * check-added-large-files
-    * tfsec
-    * terraform validate
-    * terraform fmt
-    * terraform docs
-    * tflint
+* trufflehog (secret scanning)
+* terragrunt hclfmt
+* trailing-whitespace
+* end-of-file-fixer
+* detect-aws-credentials
+* check-added-large-files
+* tfsec
+* terraform validate
+* terraform fmt
+* terraform docs
+* tflint
 
 If you do not want to use any of these pre-commit hooks you can comment them out in the `.pre-commit-config.yaml` file in the root of this repo
 
@@ -31,3 +31,4 @@ Requirements on the developers machine:
 
 After every fresh clone of the repo, the developer needs to cd into the directory and run `pre-commit install`. We're trying to figure out how to have that run automatically but haven't yet.
 
+CODEOWNERS
