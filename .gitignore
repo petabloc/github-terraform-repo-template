@@ -31,6 +31,6 @@ override.tf.json
 # Temporary editor files
 *.swp # vim swap files
 
-secrets.dec.yaml
+**/*.dec.yaml
 
 **/.terragrunt-cache/*
