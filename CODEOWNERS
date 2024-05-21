@@ -1,7 +1,7 @@
 # Reference https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 ## Global Owners
-* @dpeterka @abellpb @jpancoast @eclaassen-pb
+* @dpeterka @eclaassen-pb
 
 ## Example
 # You can also add codeowners for specific directories
